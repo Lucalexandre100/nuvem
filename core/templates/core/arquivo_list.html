@@ -1,0 +1,13 @@
+Listagens de arquivos
+<br>
+{% for arquivo in arquivo_list %}
+
+    <a href="{% url 'arquivo-detail' arquivo.id %}">
+        {{ arquivo }}
+    </a>
+    <br>
+
+{% endfor %}
+
+<hr>
+<a href="{% url 'arquivo-create' %}">Novo</a>

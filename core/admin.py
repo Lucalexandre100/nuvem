@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Repositorio
+from .models import Arquivo
 
 # Register your models here.
-admin.site.register(Repositorio)
+admin.site.register(Arquivo)

@@ -1,0 +1,10 @@
+Detalhes do arquivo
+<p>Date: {{ now|date }}</p>
+<hr>
+
+{{ object }}
+
+<hr>
+<a href="{% url 'arquivo-create' %}">Novo</a>
+<a href="{% url 'arquivo-update' object.id %}">Editar</a>
+<a href="{% url 'arquivo-delete' object.id %}">Deletar</a>
