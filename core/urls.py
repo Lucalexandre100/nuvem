@@ -1,11 +1,18 @@
 from django.urls import path
+
 from .views import *
 
 urlpatterns = [
-    path('', HomePageView.as_view()),
-    path('lista', ListaPageView.as_view()),
-
-    path('lista', ListaPageView.as_view()),
+    path(
+        '',
+        HomePageView.as_view(),
+        name='home',
+    ),
+    path(
+        'lista',
+        ListaPageView.as_view(),
+        name='lista'
+    ),
 
     # ARQUIVOS
     path(

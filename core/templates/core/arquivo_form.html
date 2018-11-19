@@ -1,4 +1,37 @@
-<form method="post">{% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Save">
-</form>
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{% block head %}
+    {% include 'head.html' with titulo2=' | Novo' %}
+{% endblock %}
+
+{% block content %}
+    <div class="card-header card-header-primary">
+        <h4 class="card-title">Selecione um arquivo</h4>
+    </div>
+
+    <div class="card-body">
+        <form method="post" enctype="multipart/form-data">{% csrf_token %}
+            <div class="row">
+                <div class="col-md-8">
+                    {% bootstrap_field form.nome placeholder=False form_group_class="form-group" layout="horizontal" label_class="bmd-label-floating" %}
+                    {{ form.arquivo }}
+
+
+                </div>
+                {% buttons %}
+                    <button type="submit" class="btn btn-primary pull-right">
+                        Subir arquivo
+                    </button>
+                {% endbuttons %}
+                <div class="clearfix"></div>
+            </div>
+        </form>
+    </div>
+
+{% endblock %}
+
+
+{% block footer %}
+    {% include 'footer.html' %}
+{% endblock %}

@@ -1,13 +1,57 @@
-Listagens de arquivos
-<br>
-{% for arquivo in arquivo_list %}
+{% extends 'base.html' %}
+{% load bootstrap4 %}
 
-    <a href="{% url 'arquivo-detail' arquivo.id %}">
-        {{ arquivo }}
-    </a>
-    <br>
+{% block head %}
+    {% include 'head.html' with titulo2=' | Novo' %}
+{% endblock %}
 
-{% endfor %}
+{% block content %}
 
-<hr>
-<a href="{% url 'arquivo-create' %}">Novo</a>
+
+    <div class="card-header card-header-primary">
+        <h4 class="card-title">Listagens de arquivos</h4>
+    </div>
+
+    <div class="card-body">
+
+
+    </div>
+    <hr>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th class="text-center">#</th>
+            <th>Nome</th>
+            <th class="text-right">Ações</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for arquivo in arquivo_list %}
+            <tr>
+                <td class="text-center">{{ arquivo.id }}</td>
+                <td>{{ arquivo.nome }}</td>
+                <td class="td-actions text-right">
+                    <button  type="button" rel="tooltip" class="btn btn-info btn-sm btn-icon">
+                        <i class="tim-icons icon-single-02"></i>
+                    </button>
+                    <button type="button" rel="tooltip" class="btn btn-danger btn-sm btn-icon">
+                        <i class="tim-icons icon-simple-remove"></i>
+                    </button>
+                </td>
+            </tr>
+        {% endfor %}
+
+        </tbody>
+    </table>
+
+    <hr>
+
+    <a class="btn btn-primary pull-right" href="{% url 'arquivo-create' %}">Novo</a>
+
+{% endblock %}
+
+
+{% block footer %}
+    {% include 'footer.html' %}
+{% endblock %}

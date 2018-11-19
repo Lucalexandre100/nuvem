@@ -1,3 +1,11 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{% block head %}
+    {% include 'head.html' %}
+{% endblock %}
+
+{% block content %}
 Detalhes do arquivo
 <p>Date: {{ now|date }}</p>
 <hr>
