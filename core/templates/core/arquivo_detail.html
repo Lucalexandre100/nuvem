@@ -2,17 +2,44 @@
 {% load bootstrap4 %}
 
 {% block head %}
-    {% include 'head.html' %}
+    {% include 'head.html' with titulo2='Detalhes do arquivo' %}
 {% endblock %}
 
 {% block content %}
-Detalhes do arquivo
-<p>Date: {{ now|date }}</p>
-<hr>
 
-{{ object }}
+    <div class="card-header card-header-primary">
+        <h4 class="card-title">
 
-<hr>
-<a href="{% url 'arquivo-create' %}">Novo</a>
-<a href="{% url 'arquivo-update' object.id %}">Editar</a>
-<a href="{% url 'arquivo-delete' object.id %}">Deletar</a>
+            {{ object.nome }}
+        </h4>
+    </div>
+
+    <div class="modal-body">
+
+        <div class="alert alert-info" role="alert">
+            <h5>
+                <a class="btn btn-default" href="{{ object.arquivo.url }}" target="_blank">
+                    Ver arquivo
+                </a>
+            </h5>
+            <hr>
+            <img class="d-block w-100 img" src="{{ object.arquivo.url }}" alt="First slide">
+        </div>
+
+
+        <hr>
+        <a class="btn btn-primary" href="{% url 'arquivo-create' %}">Novo</a>
+        <a class="btn btn-default" href="{% url 'arquivo-update' object.id %}">Editar</a>
+        <a class="btn btn-danger" href="{% url 'arquivo-delete' object.id %}">Deletar</a>
+
+
+    </div>
+
+
+
+{% endblock %}
+
+
+{% block footer %}
+    {% include 'footer.html' %}
+{% endblock %}

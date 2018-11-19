@@ -2,7 +2,7 @@
 {% load bootstrap4 %}
 
 {% block head %}
-    {% include 'head.html' with titulo2=' | Novo' %}
+    {% include 'head.html' with titulo2=' Lista de arquivos ' %}
 {% endblock %}
 
 {% block content %}
@@ -15,39 +15,37 @@
     <div class="card-body">
 
 
-    </div>
-    <hr>
+        <hr>
 
-    <table class="table">
-        <thead>
-        <tr>
-            <th class="text-center">#</th>
-            <th>Nome</th>
-            <th class="text-right">Ações</th>
-        </tr>
-        </thead>
-        <tbody>
-        {% for arquivo in arquivo_list %}
+        <table class="table">
+            <thead>
             <tr>
-                <td class="text-center">{{ arquivo.id }}</td>
-                <td>{{ arquivo.nome }}</td>
-                <td class="td-actions text-right">
-                    <button  type="button" rel="tooltip" class="btn btn-info btn-sm btn-icon">
-                        <i class="tim-icons icon-single-02"></i>
-                    </button>
-                    <button type="button" rel="tooltip" class="btn btn-danger btn-sm btn-icon">
-                        <i class="tim-icons icon-simple-remove"></i>
-                    </button>
-                </td>
+                <th class="text-center">#</th>
+                <th>Nome</th>
             </tr>
-        {% endfor %}
+            </thead>
+            <tbody>
+            {% for arquivo in arquivo_list %}
 
-        </tbody>
-    </table>
+                <tr>
 
-    <hr>
+                    <td class="text-center">
+                        <a href="{% url 'arquivo-detail' arquivo.id %}">
+                            {{ arquivo.id }}
+                        </a>
+                    </td>
+                    <td>
+                        <a href="{% url 'arquivo-detail' arquivo.id %}">
+                            {{ arquivo.nome }}
+                        </a>
+                    </td>
+                </tr>
 
-    <a class="btn btn-primary pull-right" href="{% url 'arquivo-create' %}">Novo</a>
+            {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
 
 {% endblock %}
 

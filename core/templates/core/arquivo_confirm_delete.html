@@ -1,4 +1,31 @@
-<form method="post">{% csrf_token %}
-    <p>Tem certeza que deseja deletar "{{ object }}"?</p>
-    <input type="submit" value="Confirm">
-</form>
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{% block head %}
+    {% include 'head.html' with titulo2=' Confirmar deleção ' %}
+{% endblock %}
+
+{% block content %}
+
+
+    <div class="card-header card-header-primary">
+        <h4 class="card-title">Tem certeza que deseja deletar?</h4>
+    </div>
+
+    <div class="card-body">
+        <form method="post">{% csrf_token %}
+
+            <div class="alert alert-warning" role="alert">
+                {{ object }}
+            </div>
+
+
+            <input class="btn btn-danger pull-right" type="submit" value="Deletar">
+        </form>
+    </div>
+{% endblock %}
+
+
+{% block footer %}
+    {% include 'footer.html' %}
+{% endblock %}
