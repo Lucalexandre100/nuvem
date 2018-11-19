@@ -29,7 +29,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = [
     'localhost',
-    'av2-nuvem.herokuapp.comremo',
+    'av2-nuvem.herokuapp.com',
 ]
 
 # Application definition
