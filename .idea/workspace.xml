@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29d4dda6-1544-4f21-9bb2-d98365d2060f" name="Default Changelist" comment="Alterações no fron - Finalização da página home (edit)">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements-dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/arquivo_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/arquivo_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/arquivo_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/arquivo_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/arquivo_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/arquivo_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuvem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nuvem/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuvem/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/nuvem/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/bootstrap4/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/bootstrap4/widgets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-18.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-18.1.dist-info/RECORD" afterDir="false" />
     </list>
@@ -87,77 +88,110 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="42" />
+          <entry key="env" value="1" />
           <entry key="gitignore" value="13" />
           <entry key="html" value="2068" />
-          <entry key="py" value="672" />
+          <entry key="py" value="701" />
           <entry key="sql" value="18" />
-          <entry key="txt" value="145" />
+          <entry key="txt" value="270" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key=".env file" value="1" />
           <entry key="HTML" value="2068" />
-          <entry key="PLAIN_TEXT" value="200" />
-          <entry key="Python" value="672" />
+          <entry key="PLAIN_TEXT" value="325" />
+          <entry key="Python" value="701" />
           <entry key="Scratch" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key=".env file" value="1" />
           <entry key="Database Element" value="1" />
-          <entry key="HTML" value="56" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="43" />
+          <entry key="HTML" value="57" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="46" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Procfile" value="1" />
           <entry key="core_arquivo" value="1" />
+          <entry key="env" value="1" />
           <entry key="gitignore" value="3" />
-          <entry key="html" value="56" />
-          <entry key="py" value="43" />
+          <entry key="html" value="57" />
+          <entry key="py" value="46" />
           <entry key="sql" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/templates/core/arquivo_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/templates/core/arquivo_confirm_delete.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/nuvem/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+              <folding>
+                <element signature="e#306#315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runtime.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/templates/core/arquivo_form.html">
+        <entry file="file://$PROJECT_DIR$/nuvem/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="75" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="75" />
+            <state relative-caret-position="375">
+              <caret line="25" column="73" selection-start-line="25" selection-end-line="26" />
+              <folding>
+                <element signature="e#672#704#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuvem/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#221#230#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -180,6 +214,10 @@
       <find>INSTA</find>
       <find>foo</find>
       <find>sele</find>
+      <find>SECRE</find>
+      <find>DATA</find>
+      <find>*</find>
+      <find>STATIC_ROOT</find>
     </findStrings>
     <replaceStrings>
       <replace>Repositorio</replace>
@@ -204,7 +242,6 @@
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/core/urls.py" />
         <option value="$PROJECT_DIR$/templates/footer.html" />
-        <option value="$PROJECT_DIR$/nuvem/settings.py" />
         <option value="$PROJECT_DIR$/core/views.py" />
         <option value="$PROJECT_DIR$/templates/head.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
@@ -214,6 +251,11 @@
         <option value="$PROJECT_DIR$/core/templates/core/arquivo_list.html" />
         <option value="$PROJECT_DIR$/core/templates/core/arquivo_confirm_delete.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/nuvem/wsgi.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/nuvem/settings.py" />
       </list>
     </option>
   </component>
@@ -226,7 +268,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="55" />
     <option name="y" value="27" />
-    <option name="width" value="933" />
+    <option name="width" value="1865" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -248,20 +290,11 @@
             <path>
               <item name="nuvem" type="b2602c69:ProjectViewProjectNode" />
               <item name="nuvem" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="nuvem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nuvem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nuvem" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nuvem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nuvem" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -270,7 +303,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/templates/index.html&#10;IN&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/templates/index.html&#10;sett&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/nuvem/settings.py&#10;view&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/core/views.py&#10;mode&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/core/models.py&#10;base.h&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/templates/base.html" />
+    <property name="SearchEverywhereHistoryKey" value="wsgi&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/nuvem/wsgi.py&#10;settin&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/nuvem/settings.py&#10;sett&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/templates/base.html&#10;index&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/templates/index.html&#10;IN&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/templates/index.html&#10;view&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/core/views.py&#10;mode&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/core/models.py&#10;base.h&#9;FILE&#9;file:///home/lucasalexandre/PycharmProjects/nuvem/templates/base.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
@@ -488,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542632839322</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Front: home, novo, listar, editar e confirmar deleção - OK">
+      <created>1542654017996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542654017997</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -505,7 +545,7 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49960473" weight="0.3294702" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.45409566" visible="true" weight="0.3657205" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.45409566" weight="0.80349344" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -557,16 +597,10 @@
     <MESSAGE value="Alteraçao do model e criaçao do class based view" />
     <MESSAGE value="Alterações no fron - Finalização da página home" />
     <MESSAGE value="Alterações no fron - Finalização da página home (edit)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterações no fron - Finalização da página home (edit)" />
+    <MESSAGE value="Front: home, novo, listar, editar e confirmar deleção - OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="Front: home, novo, listar, editar e confirmar deleção - OK" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nuvem/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -635,16 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuvem/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="25" column="73" selection-start-line="25" selection-end-line="26" />
-          <folding>
-            <element signature="e#672#704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -656,13 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="491" column="4" selection-start-line="491" selection-start-column="4" selection-end-line="491" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuvem/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="105" column="23" lean-forward="true" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -687,13 +704,6 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="124" column="7" lean-forward="true" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -753,6 +763,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="124" column="7" lean-forward="true" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuvem/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#221#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuvem/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="73" selection-start-line="25" selection-end-line="26" />
+          <folding>
+            <element signature="e#672#704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuvem/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="e#306#315#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
